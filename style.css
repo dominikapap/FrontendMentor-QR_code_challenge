@@ -30,6 +30,7 @@ main{
 }
 
 .contentText h1 {
+  color: #1F314F;
   font-weight: 700;
   margin-bottom: 1rem;
   font-size: 22px;
@@ -37,7 +38,7 @@ main{
 }
 .contentText p {
   font-size: 15px;
-  line-height: 19px;
+  line-height: 18.9px;
   color: #7D889E;
   width:256px;
   padding-left: 16px;
