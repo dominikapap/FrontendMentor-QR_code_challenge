@@ -30,7 +30,7 @@ Comparison of solution and design:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SCSS, CSS custom properties
 - Flexbox
 
 
