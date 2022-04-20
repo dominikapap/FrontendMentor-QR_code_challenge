@@ -1,61 +1,44 @@
 body {
   font-family: "Outfit", sans-serif;
-  background-color: #d6e2f0;
+  background-color: hsl(212deg, 45%, 89%);
 }
-
 body main {
   width: 320px;
   height: 497px;
 }
-
-body main .content {
-  background-color: white;
+body .content {
+  background-color: hsl(0deg, 0%, 100%);
   border-radius: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-body main .content .contentImg {
+body .content .contentImg {
   padding: 16px;
   height: 288px;
 }
-
-body main .content .contentImg img {
+body .content .contentImg img {
   border-radius: 10px;
   width: 288px;
 }
-
-body main .content .contentText {
+body .contentText {
   text-align: center;
   padding: 8px 16px 40px;
   line-height: 1.2;
 }
-
-body main .content .contentText h1 {
-  color: #1f314f;
+body .contentText h1 {
+  color: hsl(218deg, 44%, 22%);
   font-weight: 700;
   margin-bottom: 1rem;
   font-size: 22px;
   line-height: 28px;
 }
-
-body main .content .contentText p {
+body .contentText p {
   font-size: 15px;
   line-height: 18.9px;
-  color: #7d889e;
+  color: hsl(220deg, 15%, 55%);
   width: 256px;
   padding-left: 16px;
   padding-right: 16px;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
