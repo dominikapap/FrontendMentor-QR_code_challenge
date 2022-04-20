@@ -1,0 +1,52 @@
+@use 'colors' as *;
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: $primary-two;
+
+  main {
+    width: 320px;
+    height: 497px;
+  }
+
+  .content {
+    background-color: $primary-one;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .contentImg {
+      padding: 16px;
+      height: 288px;
+      img {
+        border-radius: 10px;
+        width: 288px;
+      }
+    }
+  }
+
+  .contentText {
+    text-align: center;
+    padding: 8px 16px 40px;
+    line-height: 1.2;
+
+    h1 {
+      color: $secondary-dark;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      font-size: 22px;
+      line-height: 28px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 18.9px;
+      color: $secondary;
+      width: 256px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+}
